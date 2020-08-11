@@ -225,7 +225,6 @@ namespace Hl7.Fhir.Specification.Tests
         }
 
         [TestMethod]
-        [Ignore("TODO: why is this failing?")]
         public void TestConstraintSources()
         {
             var dom = _testResolver.FindStructureDefinition("http://hl7.org/fhir/StructureDefinition/DomainResource");
